@@ -20,7 +20,7 @@ module.exports = {
     new ESLintPlugin(),
     new CleanWebpackPlugin(), // new line
     new HtmlWebpackPlugin({
-      title: 'name of the project',
+      title: 'Super Galactic Age Calculator',
       template: './src/index.html',
       inject: 'body'
     })

@@ -1,7 +1,7 @@
 {
-  "name": "project-name",
+  "name": "super-galactic-age-calculator",
   "version": "1.0.0",
-  "description": "",
+  "description": "Super Galactic Age Calculator",
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode=development",
