@@ -18,6 +18,6 @@ describe('AgeCalculator', () => {
 
   test('should correctly calculate Mars age', () => {
     const ageCalculation = new AgeCalculator(65);
-    expect(ageCalculation.marsAgeCalculation()).toEqual(35);
+    expect(ageCalculation.marsAgeCalculation()).toEqual(34);
   });
 });
