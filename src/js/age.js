@@ -14,4 +14,8 @@ export default class AgeCalculator{
   marsAgeCalculation(){
     return Math.floor(this.age / 1.88);
   }
+
+  jupiterAgeCalculation(){
+    
+  }
 }
