@@ -23,6 +23,6 @@ describe('AgeCalculator', () => {
 
   test('should correctly calculate Jupiter age', () => {
     const ageCalculation = new AgeCalculator(29);
-    expect(ageCalculation.jupiterAgeCalculation()).toEqual(4);
+    expect(ageCalculation.jupiterAgeCalculation()).toEqual(2);
   });
 });
