@@ -26,6 +26,7 @@ describe('AgeCalculator', () => {
     expect(ageCalculation.jupiterAgeCalculation()).toEqual(2);
   });
 
+
   test('yearsPassedSinceBirthdayOnMercury calculates correctly', () => {
     const ageCalculator = new AgeCalculator(30); 
     const pastBirthdayAge = 25;
@@ -38,5 +39,12 @@ describe('AgeCalculator', () => {
     const futureBirthdayAge = 35;
     const result = ageCalculator.yearsPassToFutureBirthdayOnMercury(futureBirthdayAge);
     expect(result).toEqual(20);
+  });
+
+  test('yearsPassedSinceBirthdayOnEarth calculates correctly', () => {
+    const ageCalculator = new AgeCalculator(70); 
+    const pastBirthdayAge = 25;
+    const result = ageCalculator.yearsPassedSinceBirthdayOnEarth(pastBirthdayAge);
+    expect(result).toEqual(45);
   });
 });
