@@ -32,4 +32,11 @@ describe('AgeCalculator', () => {
     const result = ageCalculator.yearsPassedSinceBirthdayOnMercury(pastBirthdayAge);
     expect(result).toEqual(21);
   });
+
+  test('yearsPassToFutureBirthdayOnMercury calculates correctly', () => {
+    const ageCalculator = new AgeCalculator(30); 
+    const futureBirthdayAge = 35;
+    const result = ageCalculator.yearsPassToFutureBirthdayOnMercury(futureBirthdayAge);
+    expect(result).toEqual(30);
+  });
 });

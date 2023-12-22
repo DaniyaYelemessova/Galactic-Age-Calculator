@@ -12,6 +12,7 @@ function handleForm(e){
   const mercuryYearsPassed = document.getElementById("mercuryYearsPassed");
   const newAge = new AgeCalculator(inputAge);
   mercuryAge.textContent = `Mercury age: ${newAge.mercuryAgeCalculation()}`;
+  mercuryYearsPassed.textContent = `Years passed: ${newAge.yearsPassedSinceBirthdayOnMercury(passedAge)} years have passed`;
 }
 
 document.getElementById("form").addEventListener("submit", handleForm);
