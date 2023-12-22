@@ -25,4 +25,11 @@ describe('AgeCalculator', () => {
     const ageCalculation = new AgeCalculator(29);
     expect(ageCalculation.jupiterAgeCalculation()).toEqual(2);
   });
+
+  test('yearsPassedSinceBirthdayOnMercury calculates correctly', () => {
+    const ageCalculator = new AgeCalculator(30); 
+    const pastBirthdayAge = 25;
+    const result = ageCalculator.yearsPassedSinceBirthdayOnMercury(pastBirthdayAge);
+    expect(result).toEqual(20);
+  });
 });
