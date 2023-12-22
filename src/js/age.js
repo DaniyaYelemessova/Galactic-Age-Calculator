@@ -19,7 +19,9 @@ export default class AgeCalculator{
     return Math.floor(this.age / 11.86);
   }
 
-  
+  yearsPassedSinceBirthdayOnEarth(pastBirthdayAge){
+    
+  }
 
   yearsPassedSinceBirthdayOnMercury(pastBirthdayAge){
     const currentAge = this.mercuryAgeCalculation();
