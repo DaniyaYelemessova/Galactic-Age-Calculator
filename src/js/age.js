@@ -20,7 +20,7 @@ export default class AgeCalculator{
   }
 
   yearsPassedSinceBirthdayOnEarth(pastBirthdayAge){
-    
+    return this.age - pastBirthdayAge;
   }
 
   yearsPassedSinceBirthdayOnMercury(pastBirthdayAge){
