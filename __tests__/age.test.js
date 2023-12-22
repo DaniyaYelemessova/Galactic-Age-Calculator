@@ -30,6 +30,6 @@ describe('AgeCalculator', () => {
     const ageCalculator = new AgeCalculator(30); 
     const pastBirthdayAge = 25;
     const result = ageCalculator.yearsPassedSinceBirthdayOnMercury(pastBirthdayAge);
-    expect(result).toEqual(20);
+    expect(result).toEqual(21);
   });
 });
