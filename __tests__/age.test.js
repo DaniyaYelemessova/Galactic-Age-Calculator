@@ -37,6 +37,6 @@ describe('AgeCalculator', () => {
     const ageCalculator = new AgeCalculator(30); 
     const futureBirthdayAge = 35;
     const result = ageCalculator.yearsPassToFutureBirthdayOnMercury(futureBirthdayAge);
-    expect(result).toEqual(30);
+    expect(result).toEqual(20);
   });
 });
