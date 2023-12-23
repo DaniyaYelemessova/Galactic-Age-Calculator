@@ -44,6 +44,7 @@ export default class AgeCalculator{
   }
 
   yearsPassedSinceBirthdayOnJupiter(futureBirthdayAge){
-    
+    const currentAge = this.jupiterAgeCalculation();
+    return currentAge - Math.trunc(futureBirthdayAge / 11.86);
   }
 }

@@ -66,6 +66,6 @@ describe('AgeCalculator', () => {
     const ageCalculator = new AgeCalculator(66); 
     const pastBirthdayAge = 40;
     const result = ageCalculator.yearsPassedSinceBirthdayOnJupiter(pastBirthdayAge);
-    expect(result).toEqual(14);
+    expect(result).toEqual(2);
   });
 });
