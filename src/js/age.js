@@ -44,7 +44,7 @@ export default class AgeCalculator{
   }
 
   yearsPassToFutureBirthdayOnEarth(futureBirthdayAge){
-    
+    return futureBirthdayAge - this.age;
   }
 
   yearsPassToFutureBirthdayOnMercury(futureBirthdayAge){
