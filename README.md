@@ -33,7 +33,7 @@
 To set up and use this project locally for development or testing purposes, follow these steps:
 
 To get started, you'll need to clone this repository to your local machine. Open your terminal or command prompt and use the following command to do so:
-1. git clone 
+1. git clone https://github.com/DaniyaYelemessova/Galactic-Age-Calculator.git
 2. Navigate to the Project Directory, using **cd**
 3. Open the project using **code .**
 4. Install all packages with $ npm install.
@@ -151,6 +151,9 @@ describe('AgeCalculator', () => {
 
 ### <div align="center"> 🤔 _Description:_
 
+### Super Galactic Age Calculator
+
+The Super Galactic Age Calculator is a command-line application designed to determine a user's age on different planets in our solar system. Unlike typical projects, this application follows the Red, Green, Refactor workflow to emphasize testing practices.
 
 
 
