@@ -52,6 +52,6 @@ describe('AgeCalculator', () => {
     const ageCalculator = new AgeCalculator(43); 
     const pastBirthdayAge = 40;
     const result = ageCalculator.yearsPassedSinceBirthdayOnVenus(pastBirthdayAge);
-    expect(result).toEqual(3);
+    expect(result).toEqual(5);
   });
 });
