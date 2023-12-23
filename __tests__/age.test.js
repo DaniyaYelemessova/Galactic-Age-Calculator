@@ -75,4 +75,11 @@ describe('AgeCalculator', () => {
     const result = ageCalculator.yearsPassToFutureBirthdayOnEarth(futureBirthdayAge);
     expect(result).toEqual(5);
   });
+
+  test('yearsPassToFutureBirthdayOnVenus calculates correctly', () => {
+    const ageCalculator = new AgeCalculator(30); 
+    const futureBirthdayAge = 35;
+    const result = ageCalculator.yearsPassToFutureBirthdayOnVenus(futureBirthdayAge);
+    expect(result).toEqual(5);
+  });
 });
