@@ -57,5 +57,7 @@ export default class AgeCalculator{
     return Math.trunc(futureBirthdayAge / 0.62) - currentAge;
   }
 
-  
+  yearsPassToFutureBirthdayOnMars(futureBirthdayAge){
+    
+  }
 }
