@@ -47,4 +47,11 @@ describe('AgeCalculator', () => {
     const result = ageCalculator.yearsPassedSinceBirthdayOnEarth(pastBirthdayAge);
     expect(result).toEqual(45);
   });
+
+  test('yearsPassedSinceBirthdayOnVenus calculates correctly', () => {
+    const ageCalculator = new AgeCalculator(43); 
+    const pastBirthdayAge = 40;
+    const result = ageCalculator.yearsPassedSinceBirthdayOnVenus(pastBirthdayAge);
+    expect(result).toEqual(3);
+  });
 });
