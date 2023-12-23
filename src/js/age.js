@@ -43,6 +43,10 @@ export default class AgeCalculator{
     return currentAge - Math.trunc(futureBirthdayAge / 11.86);
   }
 
+  yearsPassToFutureBirthdayOnEarth(futureBirthdayAge){
+    
+  }
+
   yearsPassToFutureBirthdayOnMercury(futureBirthdayAge){
     const currentAge = this.mercuryAgeCalculation();
     return Math.trunc(futureBirthdayAge / 0.24) - currentAge;
