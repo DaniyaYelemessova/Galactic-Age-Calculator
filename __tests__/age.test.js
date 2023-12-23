@@ -89,4 +89,11 @@ describe('AgeCalculator', () => {
     const result = ageCalculator.yearsPassToFutureBirthdayOnMars(futureBirthdayAge);
     expect(result).toEqual(3);
   });
+
+  test('yearsPassToFutureBirthdayOnJupiter calculates correctly', () => {
+    const ageCalculator = new AgeCalculator(30); 
+    const futureBirthdayAge = 35;
+    const result = ageCalculator.yearsPassToFutureBirthdayOnJupiter(futureBirthdayAge);
+    expect(result).toEqual(3);
+  });
 });
