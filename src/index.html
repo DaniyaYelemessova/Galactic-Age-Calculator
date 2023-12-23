@@ -8,23 +8,32 @@
   <body>
     <h1>Super Galactic Age Calculator</h1>
     <form id="form">
-      <label for="age">How old are you?</label>
+      <h3>Calculate your age on different planets!</h3>
+      <label for="age">Enter your age:</label>
       <input type="number" id="age" />
 
-      <label for="passedAge">Enter your age to calculate how many years have passed since that birthday:</label>
+      <h3>Calculate how many years have passed since that birthday:</h3>
+      <label for="passedAge">Enter your passed age</label>
       <input type="number"  id="passedAge">
-      <!-- i should do radio form for passed and future calculation if possible -->
+      
+      <h3>Calculate how many years have yet to pass until a future birthday:</h3>
+      <label for="futureAge">Enter your future age:</label>
+      <input type="number"  id="futureAge">
       <button type="submit">Get result</button>
     </form>
-    <div class="earthAge"></div>
-    <div id="earthYearsPassed"></div>
     
-    <div id="venusAge"></div>
-    <div id="marsAge"></div>
-    <div id="jupiterAge"></div>
+    <div class="planetAges">
+      <p>Results:</p>
+      <div class="earthAge"></div>
+      <div id="mercuryAge"></div>
+      <div id="venusAge"></div>
+      <div id="marsAge"></div>
+      <div id="jupiterAge"></div>
+    </div>
+    
+    
 
-
-    <div id="mercuryAge"></div>
+    <div id="earthYearsPassed"></div>
     <div id="mercuryYearsPassed"></div>
     <div id="mercuryFuturePass"></div>
   </body>
