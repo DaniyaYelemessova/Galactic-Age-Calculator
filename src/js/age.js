@@ -33,11 +33,6 @@ export default class AgeCalculator{
     return currentAge - Math.trunc(pastBirthdayAge / 0.62);
   }
 
-  yearsPassToFutureBirthdayOnMercury(futureBirthdayAge){
-    const currentAge = this.mercuryAgeCalculation();
-    return Math.trunc(futureBirthdayAge / 0.24) - currentAge;
-  }
-
   yearsPassedSinceBirthdayOnMars(futureBirthdayAge){
     const currentAge = this.marsAgeCalculation();
     return currentAge - Math.trunc(futureBirthdayAge / 1.88) ;
@@ -46,5 +41,10 @@ export default class AgeCalculator{
   yearsPassedSinceBirthdayOnJupiter(futureBirthdayAge){
     const currentAge = this.jupiterAgeCalculation();
     return currentAge - Math.trunc(futureBirthdayAge / 11.86);
+  }
+
+  yearsPassToFutureBirthdayOnMercury(futureBirthdayAge){
+    const currentAge = this.mercuryAgeCalculation();
+    return Math.trunc(futureBirthdayAge / 0.24) - currentAge;
   }
 }
