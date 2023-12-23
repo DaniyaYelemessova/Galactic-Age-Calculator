@@ -43,7 +43,7 @@ To get started, you'll need to clone this repository to your local machine. Open
 </details>
 
 ## <div align="center"> ⌨️ _Tests_
-<details>
+
 ```
 import AgeCalculator from "../src/js/age.js";
 
@@ -146,7 +146,7 @@ describe('AgeCalculator', () => {
 });
 
 ```
-</details>
+
 
 
 ### <div align="center"> 🤔 _Description:_
