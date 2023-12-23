@@ -56,4 +56,6 @@ export default class AgeCalculator{
     const currentAge = this.venusAgeCalculation();
     return Math.trunc(futureBirthdayAge / 0.62) - currentAge;
   }
+
+  
 }
