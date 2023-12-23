@@ -51,4 +51,8 @@ export default class AgeCalculator{
     const currentAge = this.mercuryAgeCalculation();
     return Math.trunc(futureBirthdayAge / 0.24) - currentAge;
   }
+
+  yearsPassToFutureBirthdayOnVenus(futureBirthdayAge){
+    
+  }
 }
