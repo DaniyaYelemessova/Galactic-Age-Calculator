@@ -53,6 +53,7 @@ export default class AgeCalculator{
   }
 
   yearsPassToFutureBirthdayOnVenus(futureBirthdayAge){
-    
+    const currentAge = this.venusAgeCalculation();
+    return Math.trunc(futureBirthdayAge / 0.62) - currentAge;
   }
 }
