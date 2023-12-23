@@ -28,6 +28,10 @@ export default class AgeCalculator{
     return currentAge - Math.trunc(pastBirthdayAge / 0.24);
   }
 
+  yearsPassedSinceBirthdayOnVenus(pastBirthdayAge){
+    
+  }
+
   yearsPassToFutureBirthdayOnMercury(futureBirthdayAge){
     const currentAge = this.mercuryAgeCalculation();
     return Math.trunc(futureBirthdayAge / 0.24) - currentAge;
