@@ -3,6 +3,8 @@ export default class AgeCalculator{
     this.age = age;
   }
 
+  
+
   mercuryAgeCalculation(){
     return Math.floor(this.age / 0.24);
   }
