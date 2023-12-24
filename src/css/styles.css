@@ -1,26 +1,44 @@
+.header{
+  background-image: url("../images/galaxy.jpg");
+  background-position: right;
+  background-size: cover;
+  height: 200px;
+}
+
 h1{
   text-align: center;
+  color: white;
 }
 
 label{
   margin-top: 20px;
 }
 
-#ageForm, #passedForm, #futureForm{
-  display: inline-flex;
-  flex-direction: column;
-  max-width: 300px;
+.form-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
 }
+
 
 button{
   margin-top: 20px;
 }
 
-.planetAges{
-  background-color: aquamarine;
-  text-align: center;
+.planets{
+  padding: 40px;
+  display: flex;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.age-css, .pass-css, .future-css{
+  font-weight: 600;
+}
+
+img{
   width: 200px;
-  height: 150px;
-  border-radius: 20px;
-  margin: 30px auto;
+  height: 130px;
+  object-fit: cover;
 }

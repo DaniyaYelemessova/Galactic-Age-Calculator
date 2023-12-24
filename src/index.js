@@ -12,15 +12,19 @@ function handleForm(e){
   e.preventDefault();
   const inputAge = parseInt(document.getElementById("age").value);
   const passedAge = parseInt(document.getElementById("passedAge").value);
+  const futureAge = parseInt(document.getElementById("futureAge").value);
   const newAge = new AgeCalculator(inputAge);
   const mercuryAge = document.getElementById("mercuryAge");
-  mercuryAge.textContent = `Mercury age: ${newAge.mercuryAgeCalculation()}`;
-  document.getElementById("venusAge").textContent = `Venus age: ${newAge.venusAgeCalculation()}`;
-  document.getElementById("marsAge").textContent = `Mars age: ${newAge.marsAgeCalculation()}`;
-  document.getElementById("jupiterAge").textContent = `Jupiter age: ${newAge.jupiterAgeCalculation()}`;
-  document.getElementById("earthYearsPassed").textContent = `Years passed on Earth: ${newAge.yearsPassedSinceBirthdayOnEarth(passedAge)}`;
-  const mercuryYearsPassed = document.getElementById("mercuryYearsPassed");
-  mercuryYearsPassed.textContent = `Years passed on Mercury: ${newAge.yearsPassedSinceBirthdayOnMercury(passedAge)} years have passed.`;
+  mercuryAge.textContent = `AGE: ${newAge.mercuryAgeCalculation()}`;
+  const mercuryYearsPassed = document.getElementById("mercuryPassed");
+  mercuryYearsPassed.textContent = `Years have passed since the birthday: ${newAge.yearsPassedSinceBirthdayOnMercury(passedAge)}`;
+  document.getElementById("mercuryFuture").textContent = `Years until your future birthday: ${newAge.yearsPassToFutureBirthdayOnMercury(futureAge)}`;
+  document.getElementById("earthPassed").textContent = `Years have passed since the birthday: ${newAge. yearsPassedSinceBirthdayOnEarth(passedAge)}`;
+  document.getElementById("earthFuture").textContent = `Years until your future birthday: ${newAge. yearsPassToFutureBirthdayOnEarth(futureAge)}`;
+  document.getElementById("venusAge").textContent = `Age: ${newAge.venusAgeCalculation()}`;
+  document.getElementById("venusPassed").textContent = `Years have passed since the birthday: ${newAge.yearsPassedSinceBirthdayOnVenus(passedAge)}`;
+  document.getElementById("venusFuture").textContent = `Years until your future birthday: ${newAge.yearsPassToFutureBirthdayOnVenus(futureAge)}`;
+
   reset();
 }
 
