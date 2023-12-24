@@ -5,10 +5,10 @@
 **_<p align="right">By Daniya Yelemessova_**</p>
 
 <p align="center">
-  <img src="images/js.png" alt="js" width="30"/>
+  <img src="src/images/js.png" alt="js" width="30"/>
 </p>
 
-<div><img src="" alt="screen of the program" width="50%" display="block" margin-left="auto" margin-right="auto"/></div>
+<div><img src="src/images/screen.png" alt="screen of the program" width="50%" display="block" margin-left="auto" margin-right="auto"/></div>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
@@ -159,7 +159,7 @@ The Super Galactic Age Calculator is a command-line application designed to dete
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-## <div align="center"> <img src="images/github.png" alt="github icon" width="30px"> _Link to site on Github Pages:_
+## <div align="center"> <img src="src/images/github.png" alt="github icon" width="30px"> _Link to site on Github Pages:_
 
 - [GitHub page link](https://github.com/DaniyaYelemessova)
 
