@@ -4,7 +4,7 @@ export default class AgeCalculator{
   }
 
   earthAgeCalculation(){
-    
+    return this.age;
   }
 
   mercuryAgeCalculation(){
