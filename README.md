@@ -175,7 +175,7 @@ The Super Galactic Age Calculator is a command-line application designed to dete
 
 ## <div align="center"> 📘 _License and copyright:_
 
-> **_© Daniya Yelemessova, 2023_**  
+> **_© Daniya Yelemessova_**  
 > ⚖️ _[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)_
 
 
