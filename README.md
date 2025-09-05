@@ -1,6 +1,6 @@
 ## <div align="center">Super Galactic Age Calculator</div>
 
-#### <div align="center">💻 _Learning project for Test Driven Development 12/22/2023_ </div>
+#### <div align="center">💻 _Learning project for Test Driven Development </div>
 
 **_<p align="right">By Daniya Yelemessova_**</p>
 
